@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    background-color: rgb(177, 161, 122);
+    align-items: center;
+}
+#container{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    /* overflow: hidden; */
+    margin: 1rem;
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+#container #love{
+    color: #fff;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform ease 0.4s;
+    opacity: 0;
+}
+
+#container i{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%,-50%) ;
+    transition: transform ease 0.4s;
+    opacity: 1;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #513511;
+    text-align: center;
+
+}
